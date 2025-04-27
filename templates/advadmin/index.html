@@ -7,7 +7,7 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
-    <title>Dashboard - Analytics | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>Dashboard - Analytics | CodespikeStudio</title>
 
     <meta name="description" content="" />
 
@@ -252,6 +252,26 @@
                 <div data-i18n="Manage Reviews">Expense Transactions</div>
               </a>
             </li>
+
+            
+            <li class="menu-header small text-uppercase">
+              <span class="menu-header-text">ACCOUNTS SETTINGS</span>
+            </li>
+            <!-- Layouts -->
+            <li class="menu-item">
+              <a href="{% url 'transaction_list' 'income' %}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-trending-up"></i>
+                <div data-i18n="Manage Banners">Manage Category</div>
+              </a>
+            </li>
+            {% comment %} <li class="menu-item">
+              <a href="{% url 'transaction_list' 'expense' %}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-trending-down"></i>
+                <div data-i18n="Manage Reviews">Expense Transactions</div>
+              </a>
+            </li> {% endcomment %}
+
+
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">CMS Management</span>
             </li>
@@ -266,6 +286,12 @@
               <a href="{% url 'review_list' %}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-comment-detail"></i>
                 <div data-i18n="Manage Reviews">Manage Reviews</div>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="{% url 'review_list' %}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-comment-detail"></i>
+                <div data-i18n="Manage Reviews">Manage Packages</div>
               </a>
             </li>
             <li class="menu-item">
