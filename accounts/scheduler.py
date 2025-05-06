@@ -21,7 +21,8 @@ def self_ping():
     """
     ping_urls = [
         'https://xxsapequipments.onrender.com/',
-        'https://aspinxp.onrender.com/'
+        'https://aspinxp.onrender.com/',
+        'https://codespikestudios.in/'
     ]
     
     for url in ping_urls:
